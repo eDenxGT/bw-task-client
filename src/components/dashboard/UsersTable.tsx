@@ -18,7 +18,7 @@ interface UserTableProps {
 }
 
 export default function UserTable({
-  itemsPerPage = 1,
+  itemsPerPage = 2,
   className,
 }: UserTableProps) {
   const [currentPage, setCurrentPage] = useState(1);
